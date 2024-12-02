@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hello, I am Lia! 👩🏻‍💻⚡️💜
 
-<!--
-**liafer/liafer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+// Lia From Brazil 🇧🇷
+import { lia } from 'brazil';
 
-Here are some ideas to get you started:
+// About Me
+const bio = {
+  name: 'Lia', 
+  role: 'Frontend Developer',
+  skills: [
+    'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Next.js', 
+    'React Native', 'Sass', 'Styled Components', 'UI libraries', 
+    'Cypress', 'Jest', 'Storybook', 'Git', 'Agile Methodologies'
+  ],
+};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+// Work Experience
+const experience = {
+  description: 'Frontend Developer with 3 years of experience',
+  role: 'Frontend Developer',
+  strengths: [
+    'Analytical mindset', 'Problem-solving', 'Creativity', 'Collaboration'
+  ],
+};
+
+export { bio, experience };
